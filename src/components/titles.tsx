@@ -1,9 +1,9 @@
-import logo from "../assets/images/logo.svg";
+const photo = require("./Logo.svg");
 
 export const Title = () => {
   return (
     <div className="mx-auto">
-      <img src={logo} alt="" />
+      <img src={photo} alt="" />
     </div>
   );
 };
